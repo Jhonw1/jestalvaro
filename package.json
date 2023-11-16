@@ -1,0 +1,33 @@
+{
+  "name": "jest-nodejs-supertest",
+  "version": "1.0.0",
+  "description": "Simple example of Testing a Nodejs express REST API using Jest and Supertest.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "supertest": "^6.3.3"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FaztWeb/nodejs-jest-supertest.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FaztWeb/nodejs-jest-supertest/issues"
+  },
+  "homepage": "https://github.com/FaztWeb/nodejs-jest-supertest#readme"
+}
